@@ -5,5 +5,3 @@ scikit-learn
 seaborn
 matplotlib
 scikit-learn
-pickle
-
