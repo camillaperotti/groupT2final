@@ -51,14 +51,14 @@ def user_input():
         #Per capita Crime rate (CRIM)
         crime_rate = st.slider("**Crime rate per capita:**",min_value=0.00, max_value=90.00, value=0.01)
         st.write(f"Useful to know: The average crime rate in the whole Boston area is 3.61")
-        st.image('EDA_crime.png', use_column_width=True)
+        st.image('EDA_crime.png', use_container_width=True)
         st.write("---")
         #we could add IF statement a la "you chose XY, which is above the average..
 
         #Pollution (NOX)
         pollution = st.slider("**Pollution in area**",min_value=0.00, max_value=1.00, value=0.01)
         st.write(f"Useful to know: The average pollution in the whole Boston area is 0.55")
-        st.image('EDA_pollution.png', use_column_width=True)
+        st.image('EDA_pollution.png', use_container_width=True)
         st.write("---")
 
         #Percentage of lower status of population (LSTAT)
@@ -68,7 +68,7 @@ def user_input():
 
         #Tax rate (TAX)
         tax_rate = st.slider("**Tax rate**",min_value=187.00, max_value=711.00, value=0.01)
-        st.image('EDA_tax.png', use_column_width=True)
+        st.image('EDA_tax.png', use_container_width=True)
         st.write("---")
 
         #Proportion of industrial business in area (INDUS)
@@ -80,7 +80,7 @@ def user_input():
         #Pupil-teacher ratio (PTRATIO)
         ratio = st.slider("**Pupil-teacher ratio**",min_value=12, max_value=22, value=1)
         st.write(f"The boston average ratio is 18.45, meaning 1 teacher for every 18.45 pupils. You selected a ratio of {ratio}")
-        st.image('EDA_pupil.png', use_column_width=True)
+        st.image('EDA_pupil.png', use_container_width=True)
         st.write("---")
 
         #Residential Zone (ZN)
