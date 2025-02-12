@@ -90,7 +90,7 @@ def user_input():
 
         #Near River (CHAS)
         near_river = st.selectbox('**Do you wish your house to be closes to the Charles River?**',(1,0))
-        st.write('1 is yes and 0 is no. Your selection is: {near_river}")
+        st.write("1 is yes and 0 is no. Your selection is: {near_river}")
         st.write("---")
         
         #OlderHomes (AGE)
